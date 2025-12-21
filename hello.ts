@@ -1,6 +1,6 @@
-function add (x: number, y: number){
-    return x+y;
+function greet(name: string){
+    return "Hello "+ name;
 };
-const result:number = add(5,10);
-console.log(result);
+const greeting:string = greet("Varun !!");
+console.log(greeting);
 

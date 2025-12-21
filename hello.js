@@ -1,7 +1,6 @@
-"use strict";
-function add(x, y) {
-    return x + y;
+function greet(name) {
+    return "Hello " + name;
 }
 ;
-const result = add(5, 10);
-console.log(result);
+var greeting = greet("Varun !!");
+console.log(greeting);
